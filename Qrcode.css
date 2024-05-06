@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    box-sizing: border-box;
+    font-family: "Noto Sans", sans-serif; /* Changed font family to Noto Sans */
+}
+
+.app-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px; /* Added margin-top for spacing */
+}
+.app-container h1{
+    font-weight: 500;
+    font-size: large;
+    color: blue;
+    border-bottom:1px solid#f1efef ;
+    padding: 10px 0px;
+}
+
+.Qr-code-img {
+    width: 200px; /* Adjust image width as needed */
+    height: auto; /* Maintain aspect ratio */
+    margin-bottom: 20px; /* Added margin for spacing */
+}
+
+.input-label {
+    display: block;
+    margin-bottom: 10px;
+    color:blue;
+     font-size: 15px;
+     font-weight: 500;
+}
+input[type="text"]{
+    padding: 12px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    border: 2px solid blue;
+    border-radius: 5px;
+    width: 100%;
+}
+ button{
+    padding: 15px 20px;
+    font-size :18px;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+ }
+ .Generate-button{
+    background-color: blue;
+ }
+ .Generate-button:disabled{
+    background-color: black;
+    cursor: not-allowed;
+ }
+ .Download-button{
+    background-color: green;
+    margin-left: 10px;
+ }
+
+.footer{
+    margin-top: 30px;
+    color: blueviolet;
+}
+
+
+
+
+
+
+
+
+
